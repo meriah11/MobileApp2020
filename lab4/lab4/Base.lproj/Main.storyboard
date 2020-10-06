@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lab4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plant Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZK-kk-ZEU">
+                                <rect key="frame" x="46" y="202" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="tax" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8R-yC-CpJ">
+                                <rect key="frame" x="227" y="122" width="48" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPF-XA-OnF">
+                                <rect key="frame" x="46" y="133" width="27" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="S01-Zv-AFA">
+                                <rect key="frame" x="221" y="284" width="94" height="32"/>
+                                <connections>
+                                    <action selector="updatePlant:" destination="BYZ-38-t0r" eventType="valueChanged" id="De3-79-y4C"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Plant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2b-oC-wq6">
+                                <rect key="frame" x="46" y="279" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lCj-Zs-3NO">
+                                <rect key="frame" x="224" y="202" width="61" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Plant Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vji-b9-bdd">
+                                <rect key="frame" x="46" y="352" width="124" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McB-zl-BFh">
+                                <rect key="frame" x="256" y="351" width="14" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAW-IS-ZD7">
+                                <rect key="frame" x="144" y="59" width="87" height="30"/>
+                                <state key="normal" title="Display Alert"/>
+                                <connections>
+                                    <action selector="displayAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M58-J1-wlq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s8R-yC-CpJ" secondAttribute="trailing" constant="100" id="7UJ-rY-yfd"/>
+                            <constraint firstItem="S01-Zv-AFA" firstAttribute="top" secondItem="lCj-Zs-3NO" secondAttribute="bottom" constant="48" id="7YP-sI-wq2"/>
+                            <constraint firstItem="s8R-yC-CpJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="994-HW-cl2"/>
+                            <constraint firstItem="x2b-oC-wq6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="Bcp-17-4SS"/>
+                            <constraint firstItem="x2b-oC-wq6" firstAttribute="top" secondItem="jZK-kk-ZEU" secondAttribute="bottom" constant="56" id="CxI-gO-Kac"/>
+                            <constraint firstItem="eAW-IS-ZD7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JA4-c6-I1O"/>
+                            <constraint firstItem="eAW-IS-ZD7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="LR3-V2-ACK"/>
+                            <constraint firstItem="jZK-kk-ZEU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="Ma7-YU-9Td"/>
+                            <constraint firstItem="McB-zl-BFh" firstAttribute="top" secondItem="S01-Zv-AFA" secondAttribute="bottom" constant="35" id="OgB-Lw-uCe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="McB-zl-BFh" secondAttribute="trailing" constant="105" id="WPa-4i-PrX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lCj-Zs-3NO" secondAttribute="trailing" constant="90" id="cfF-ca-HzI"/>
+                            <constraint firstItem="Vji-b9-bdd" firstAttribute="top" secondItem="x2b-oC-wq6" secondAttribute="bottom" constant="52" id="dgH-sc-o6y"/>
+                            <constraint firstItem="yPF-XA-OnF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="ecb-ti-owz"/>
+                            <constraint firstItem="yPF-XA-OnF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="j2I-1j-OZz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S01-Zv-AFA" secondAttribute="trailing" constant="60" id="jv5-GG-yi9"/>
+                            <constraint firstItem="Vji-b9-bdd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="osj-7Z-Abi"/>
+                            <constraint firstItem="lCj-Zs-3NO" firstAttribute="top" secondItem="s8R-yC-CpJ" secondAttribute="bottom" constant="46" id="srb-K8-BVl"/>
+                            <constraint firstItem="jZK-kk-ZEU" firstAttribute="top" secondItem="yPF-XA-OnF" secondAttribute="bottom" constant="48" id="zhS-Xg-emi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="plantLabel" destination="x2b-oC-wq6" id="0jg-wx-D3C"/>
+                        <outlet property="plantPrice" destination="lCj-Zs-3NO" id="OSn-WM-Fyx"/>
+                        <outlet property="plantStepper" destination="S01-Zv-AFA" id="kAV-LE-Sff"/>
+                        <outlet property="plantTax" destination="s8R-yC-CpJ" id="wRG-pr-zYS"/>
+                        <outlet property="totalPlantPrice" destination="McB-zl-BFh" id="2rA-YQ-AuJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58.399999999999999" y="133.74384236453201"/>
+        </scene>
+    </scenes>
+</document>
