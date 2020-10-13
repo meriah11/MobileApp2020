@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="recipeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FTP-4V-5U6">
+                                <rect key="frame" x="31" y="123" width="352" height="32"/>
+                                <segments>
+                                    <segment title="Chicken"/>
+                                    <segment title="Seafood"/>
+                                    <segment title="Pasta"/>
+                                    <segment title="Red Meat"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mealSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="hCl-X5-RMc"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feR-Qx-Tbv">
+                                <rect key="frame" x="45" y="277" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csA-r8-7ix">
+                                <rect key="frame" x="31" y="218" width="162" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Chicken Parmesan"/>
+                                <connections>
+                                    <action selector="chickenParmClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jp1-pi-THx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8m-xz-I9Q">
+                                <rect key="frame" x="33" y="335" width="141" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Orange Chicken"/>
+                                <connections>
+                                    <action selector="orangeChickenClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iee-7i-KuK"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chickenParm" translatesAutoresizingMaskIntoConstraints="NO" id="z8S-qO-Zxd">
+                                <rect key="frame" x="313" y="182" width="61" height="91.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hungry?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybK-NC-4Zt">
+                                <rect key="frame" x="24" y="131" width="234" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garlicChicken" translatesAutoresizingMaskIntoConstraints="NO" id="IHm-uU-T7h">
+                                <rect key="frame" x="313" y="443.5" width="61" height="91.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVx-E7-Qq8">
+                                <rect key="frame" x="37" y="453" width="127" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Garlic Chicken"/>
+                                <connections>
+                                    <action selector="garlicChickenClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Yf-tl-nQq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="breast" translatesAutoresizingMaskIntoConstraints="NO" id="4Ge-Dr-3xN">
+                                <rect key="frame" x="309" y="574.5" width="61" height="91.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgN-eq-FWo">
+                                <rect key="frame" x="37" y="589" width="132" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Chicken Breast"/>
+                                <connections>
+                                    <action selector="chickenClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ui2-JC-C9A"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orangeChicken" translatesAutoresizingMaskIntoConstraints="NO" id="ZcY-zJ-q7t">
+                                <rect key="frame" x="309" y="309" width="62.5" height="90"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Ge-Dr-3xN" secondAttribute="trailing" constant="44" id="0cI-08-weh">
+                                <variation key="heightClass=compact-widthClass=regular" constant="79"/>
+                            </constraint>
+                            <constraint firstItem="D8m-xz-I9Q" firstAttribute="top" secondItem="csA-r8-7ix" secondAttribute="bottom" constant="81" id="362-n5-1fH"/>
+                            <constraint firstItem="FTP-4V-5U6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="79" id="5Ob-qb-qLe"/>
+                            <constraint firstItem="D8m-xz-I9Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="5zv-k5-riq"/>
+                            <constraint firstItem="ybK-NC-4Zt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="9MZ-BE-SF2"/>
+                            <constraint firstItem="csA-r8-7ix" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="Hea-ge-0mQ"/>
+                            <constraint firstItem="fVx-E7-Qq8" firstAttribute="top" secondItem="D8m-xz-I9Q" secondAttribute="bottom" constant="82" id="PIT-jZ-tIR">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-153"/>
+                            </constraint>
+                            <constraint firstItem="4Ge-Dr-3xN" firstAttribute="top" secondItem="IHm-uU-T7h" secondAttribute="bottom" constant="39.5" id="PgI-Bh-4jb">
+                                <variation key="heightClass=compact-widthClass=regular" constant="38.5"/>
+                            </constraint>
+                            <constraint firstItem="z8S-qO-Zxd" firstAttribute="top" secondItem="FTP-4V-5U6" secondAttribute="bottom" constant="28" id="RW2-9b-7lJ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="37"/>
+                            </constraint>
+                            <constraint firstItem="csA-r8-7ix" firstAttribute="top" secondItem="FTP-4V-5U6" secondAttribute="bottom" constant="64" id="XLX-BM-YAf"/>
+                            <constraint firstItem="IHm-uU-T7h" firstAttribute="top" secondItem="ZcY-zJ-q7t" secondAttribute="bottom" constant="44.5" id="bfZ-zz-KjS">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-207.5"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z8S-qO-Zxd" secondAttribute="trailing" constant="40" id="dea-yj-6KZ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="462"/>
+                            </constraint>
+                            <constraint firstItem="ybK-NC-4Zt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="ekB-nG-nrh"/>
+                            <constraint firstItem="cgN-eq-FWo" firstAttribute="top" secondItem="fVx-E7-Qq8" secondAttribute="bottom" constant="100" id="hWG-Wz-FWL">
+                                <variation key="heightClass=compact-widthClass=regular" constant="81"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IHm-uU-T7h" secondAttribute="trailing" constant="40" id="jdw-Ug-Rj8">
+                                <variation key="heightClass=compact-widthClass=regular" constant="79"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZcY-zJ-q7t" secondAttribute="trailing" constant="42.5" id="k53-FS-Af8">
+                                <variation key="heightClass=compact-widthClass=regular" constant="460.5"/>
+                            </constraint>
+                            <constraint firstItem="FTP-4V-5U6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="lys-cl-LSm"/>
+                            <constraint firstItem="FTP-4V-5U6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oqZ-az-tEr"/>
+                            <constraint firstItem="ZcY-zJ-q7t" firstAttribute="top" secondItem="z8S-qO-Zxd" secondAttribute="bottom" constant="35.5" id="rei-Dw-gl5">
+                                <variation key="heightClass=compact-widthClass=regular" constant="26.5"/>
+                            </constraint>
+                            <constraint firstItem="cgN-eq-FWo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="tIc-Js-H9u">
+                                <variation key="heightClass=compact-widthClass=regular" constant="440"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ybK-NC-4Zt" secondAttribute="trailing" constant="90" id="w9e-bm-xWF"/>
+                            <constraint firstItem="fVx-E7-Qq8" firstAttribute="leading" secondItem="D8m-xz-I9Q" secondAttribute="leading" constant="6" id="zwP-US-4n6">
+                                <variation key="heightClass=compact-widthClass=regular" constant="409"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="csA-r8-7ix" id="qDk-Iz-Grb"/>
+                        <outlet property="button2" destination="D8m-xz-I9Q" id="iwt-6O-9CO"/>
+                        <outlet property="button3" destination="fVx-E7-Qq8" id="IuU-uG-XAH"/>
+                        <outlet property="button4" destination="cgN-eq-FWo" id="ARu-RT-CuI"/>
+                        <outlet property="image1" destination="z8S-qO-Zxd" id="Qeb-GT-6Vc"/>
+                        <outlet property="image2" destination="ZcY-zJ-q7t" id="Ki1-Ry-JOS"/>
+                        <outlet property="image3" destination="IHm-uU-T7h" id="c9s-wo-qfZ"/>
+                        <outlet property="image4" destination="4Ge-Dr-3xN" id="eYA-ee-XN9"/>
+                        <outlet property="segControl" destination="FTP-4V-5U6" id="gO2-Uz-lB6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="breast" width="61" height="91.666664123535156"/>
+        <image name="chickenParm" width="61" height="91.666664123535156"/>
+        <image name="garlicChicken" width="61" height="91.666664123535156"/>
+        <image name="orangeChicken" width="62.666667938232422" height="89.333335876464844"/>
+    </resources>
+</document>
