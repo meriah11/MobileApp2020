@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lab8</string>
+    <string name="header">Addition or Subtraction</string>
+    <string name="radio1">Is Math Cool?</string>
+    <string name="radio1_1">Cool</string>
+    <string name="radio1_2">Not Cool</string>
+    <string name="header_1">Is math cool or not cool?</string>
+    <string name="header_2">Would you like to add or subtract?</string>
+    <string name="check_1">1</string>
+    <string name="check_2">2</string>
+    <string name="check_3">4</string>
+    <string name="answerSwitch">Show Correct Answer?</string>
+    <string name="buttonMath">Math!</string>
+    <string-array name="addorno">
+        <item>Addition</item>
+        <item>Subtraction</item>
+    </string-array>
+</resources>
