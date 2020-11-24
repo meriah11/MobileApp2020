@@ -39,11 +39,11 @@ class lab8Activity : AppCompatActivity() {
         intent.data = websiteURL?.let{Uri.parse(websiteURL)}
 
         // Verify that the intent will resolve to an activity
-        if (intent.resolveActivity(packageManager) != null) {
+
             startActivity(intent)
-        }else{
+
             //snackbar message
-        }
+
     }
 
     override fun onBackPressed() {

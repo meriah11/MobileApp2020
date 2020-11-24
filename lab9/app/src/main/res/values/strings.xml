@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">lab8</string>
+    <string name="header">Addition or Subtraction</string>
+    <string name="radio1">Is Math Cool?</string>
+    <string name="radio1_1">Cool</string>
+    <string name="radio1_2">Not Cool</string>
+    <string name="header_1">Is math cool or not cool?</string>
+    <string name="header_2">Would you like to add or subtract?</string>
+    <string name="check_1">1</string>
+    <string name="check_2">2</string>
+    <string name="check_3">4</string>
+    <string name="answerSwitch">Show Correct Answer?</string>
+    <string name="buttonMath">Math!</string>
+    <string name="websiteButton">Website</string>
+    <string-array name="addorno">
+        <item>Addition</item>
+        <item>Subtraction</item>
+    </string-array>
+    <string-array name="findMathWeb">
+        <item>Find Math Website</item>
+        <item>Find Other Website</item>
+    </string-array>
+    <string name="title_activity_lab8">lab8Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="lab8HintText">Feedback</string>
+</resources>
