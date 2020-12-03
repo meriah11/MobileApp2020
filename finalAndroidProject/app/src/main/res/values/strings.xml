@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">What Do You Want to Eat?</string>
+
+    <string name="food1String"><a href="https://dinnerthendessert.com/panda-express-orange-chicken-copycat/">Orange Chicken</a></string>
+<!--    <string name="food1String">Orange Chicken</string>-->
+<!--    <string name="food2String">Chicken Breast</string>-->
+    <string name="food2String"><a href="https://www.gimmesomeoven.com/baked-chicken-breast/">Chicken Breast</a></string>
+<!--    <string name="food3String">Chicken Parmesan</string>-->
+    <string name="food3String"><a href="https://cafedelites.com/crispy-chicken-parmesan/">Chicken Parmesan</a></string>
+<!--    <string name="foodString4">Garlic Chicken Breast</string>-->
+    <string name="foodString4"><a href="https://cafedelites.com/creamy-garlic-chicken-breasts/">Garlic Chicken Breast</a></string>
+
+    <string name="foodString5"><a href="https://www.allrecipes.com/recipe/273864/greek-chicken-skewers/">Greek Chicken Skewers</a></string>
+    <string name="foodString6"><a href="https://www.allrecipes.com/recipe/279987/sheet-pan-sweet-and-sour-chicken/">Sweet and Sour Chicken</a></string>
+    <string name="foodString7"><a href="https://ohsweetbasil.com/my-best-homemade-chicken-pot-pie-recipe/">Chicken Pot Pie</a></string>
+    <string name="foodString8"><a href="https://www.allrecipes.com/recipe/280018/french-onion-breaded-baked-chicken/">Breaded Chicken Breast</a></string>
+
+    <string name="foodString9"><a href="https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/">Buffalo Wings</a></string>
+    <string name="foodString10"><a href="https://www.delish.com/cooking/recipe-ideas/a29499926/chicken-biryani/">Chicken Biryani</a></string>
+    <string name="foodString11"><a href="hhttps://www.cookingforkeeps.com/classic-chicken-enchiladas/">Chicken Enchiladas</a></string>
+    <string name="foodString12"><a href="https://cafedelites.com/creamy-chicken-marsala/">Chicken Marsala</a></string>
+
+
+    <string name="pastaString1"><a href="https://www.simplyhappyfoodie.com/instant-pot-spaghetti/">Spaghetti</a></string>
+    <string name="pastaString2"><a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">Alfredo</a></string>
+    <string name="pastaString3"><a href="https://www.inspiredtaste.net/37555/parmesan-buttered-noodles/">Butter Noodles</a></string>
+    <string name="pastaString4"><a href="https://www.recipetineats.com/pesto-pasta/">Pesto</a></string>
+
+    <string name="pastaString5"><a href="https://www.recipetineats.com/chicken-pad-thai/">Pad Thai</a></string>
+    <string name="pastaString6"><a href="https://www.loveandlemons.com/pasta-recipes/">Linguini with Lemon</a></string>
+    <string name="pastaString7"><a href="https://www.budgetbytes.com/creamy-tomato-spinach-pasta/">Tomato and Spinich Pasta</a></string>
+    <string name="pastaString8"><a href="https://www.dinneratthezoo.com/penne-alla-vodka/">Pene alla Vodka</a></string>
+
+<!--    <string name="pastaString9"><a href="https://www.simplyrecipes.com/recipes/spaghetti_alla_carbonara/">Pasta Carbonara</a></string>-->
+<!--    <string name="pastaString10"><a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">Alfredo</a></string>-->
+<!--    <string name="pastaString11"><a href="https://www.dinneratthezoo.com/baked-spaghetti/">Baked Spaghetti</a></string>-->
+<!--    <string name="pastaString12"><a href="https://www.chelseasmessyapron.com/beef-ragu/">Beef Ragu</a></string>-->
+
+    <string name="seafoodString1"><a href="https://www.dinneratthezoo.com/broiled-salmon-fillets/">Salmon</a></string>
+    <string name="seafoodString2"><a href="https://spicysouthernkitchen.com/crispy-fried-shrimp/">Fried Shrimp</a></string>
+    <string name="seafoodString3"><a href="https://therecipecritic.com/cajun-garlic-butter-shrimp/">Cajun Shrimp</a></string>
+    <string name="seafoodString4"><a href="https://natashaskitchen.com/fish-tacos-recipe/">Fish Tacos</a></string>
+
+    <string name="seafoodString5"><a href="https://www.cookingclassy.com/salmon-patties-salmon-cakes/">Salmon Cakes</a></string>
+    <string name="seafoodString6"><a href="https://www.crunchycreamysweet.com/shrimp-scampi/">Shrimp Scampi</a></string>
+    <string name="seafoodString7"><a href="https://www.allrecipes.com/recipe/25871/grilled-fish-steaks/">Grilled Fish Steaks</a></string>
+    <string name="seafoodString8"><a href="https://cafedelites.com/coconut-shrimp/">Coconut Shrimp</a></string>
+
+<!--    <string name="seafoodString9"><a href="https://dinnerthendessert.com/baked-scallops/">Baked Scallops</a></string>-->
+<!--    <string name="seafoodString10"><a href="https://www.spendwithpennies.com/easy-baked-tilapia/">Baked Tilapia</a></string>-->
+<!--    <string name="seafoodString11"><a href="https://therecipecritic.com/cajun-garlic-butter-shrimp/">Cajun Shrimp</a></string>-->
+<!--    <string name="seafoodString12"><a href="https://natashaskitchen.com/fish-tacos-recipe/">Fish Tacos</a></string>-->
+
+    <string name="meatString1"><a href="https://natashaskitchen.com/pan-seared-steak/">Steak</a></string>
+    <string name="meatString2"><a href="https://addapinch.com/steak-fajitas-recipe/">Steak Fajitas</a></string>
+    <string name="meatString3"><a href="https://www.chewoutloud.com/30-minute-beef-and-broccoli-stir-fry/">Broccoli Beef</a></string>
+    <string name="meatString4"><a href="https://www.foodnetwork.com/recipes/food-network-kitchen/cheesy-cheeseburgers-recipe-2111823">Cheese Burger</a></string>
+
+    <string name="meatString5"><a href="https://www.foodnetwork.com/recipes/guy-fieri/steak-diane-recipe-2107132">Steak Diane</a></string>
+    <string name="meatString6"><a href="https://www.allrecipes.com/recipe/14497/portobello-mushroom-burgers/">Mushroom Burger</a></string>
+    <string name="meatString7"><a href="https://www.allrecipes.com/recipe/16354/easy-meatloaf/">Meatloaf</a></string>
+    <string name="meatString8"><a href="https://www.foodnetwork.com/recipes/food-network-kitchen/cheesy-cheeseburgers-recipe-2111823">Cheese Burger</a></string>
+
+    <string name="meatString9"><a href="https://simply-delicious-food.com/sticky-bbq-ribs/">Ribs</a></string>
+<!--    <string name="meatString10"><a href="https://addapinch.com/steak-fajitas-recipe/">Steak Fajitas</a></string>-->
+<!--    <string name="meatString11"><a href="https://www.chewoutloud.com/30-minute-beef-and-broccoli-stir-fry/">Broccoli Beef</a></string>-->
+<!--    <string name="meatString12"><a href="https://www.foodnetwork.com/recipes/food-network-kitchen/cheesy-cheeseburgers-recipe-2111823">Cheese Burger</a></string>-->
+
+    <string name="chickenButton">Chicken</string>
+    <string name="pastaButton">Pasta</string>
+    <string name="seafoodButton">Seafood</string>
+    <string name="meatButton">Red Meat</string>
+    <string name="buttonText">Choose Food Category</string>
+    <string name="newChoiceButton">More Choices</string>
+    <string name="buttonnewchoice">More Options</string>
+    <string-array name="foodType">
+        <item>Chicken</item>
+        <item>Pasta</item>
+        <item>Seafood</item>
+        <item>Red Meat</item>
+    </string-array>
+</resources>
